@@ -1,0 +1,35 @@
+@import '../base/variables';
+
+
+body {
+   background-color: $bg-color-general;
+   
+}
+.color-tit {
+   color: $color-h1;
+}
+.color-sub {
+   color: $color-sub;
+}
+h1 {
+   font-family:'Pacifico', cursive, sans-serif;
+  
+}
+.font {
+   font-family: "Open+Sans&family=Roboto", sans-serif;
+  
+}
+h2 {
+   font-family: 'Pacifico', cursive, sans-serif;
+   
+}
+.desap {
+   display: flex;
+   justify-content: end;
+}
+@media screen and (max-width: 1200px) {
+   .desap {
+      display: flex;
+      justify-content: end;
+   }
+}

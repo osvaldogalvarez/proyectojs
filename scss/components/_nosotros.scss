@@ -1,0 +1,18 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.circlee {
+    border-radius: $circular;
+}
+.font {
+    @include fonts(18px);
+}
+.imgs {
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.imgs:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,14 @@
+@import '../base/variables';
+
+.carousel-item {
+    width: $width-tam;
+    height: $heigth-tam;
+}
+ @media (max-width: 600px) {
+     .carousel-item {
+         height: 280px;
+     }
+ }
+ .carousel-inner {
+     width: 100%;
+ }

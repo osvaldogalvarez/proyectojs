@@ -1,0 +1,117 @@
+@import '../base/variables';
+@import '../base/extends';
+
+.photo-gallery {
+    color:#313437;
+    background-color:$bg-color-general;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  .buton {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+
+  }
+  .circlee {
+    border-radius: $circular;
+    
+  }
+  .buton {
+    margin: 10px;
+  }
+  .efecto-boton {
+    border-radius: $cicular-boton;
+    background-color: darken($bg-color-general, 5%);
+}
+.texto {
+  text-decoration: none;
+}
+.rowss {
+  @extend %flexgal;
+}
+.contenedor {
+  display: grid;
+  grid-template-rows: auto;
+}
+.flex-gal {
+  @extend %flexgal;
+}
+.testdeco {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
+.btns:hover {
+  background-color: rgb(196, 197, 230);
+  color: white;
+}
+.color-sub {
+  color: blueviolet;
+}
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.desap {
+  display: flex;
+  justify-content: end;
+}
+@media screen and (max-width: 1200px) {
+  .desap {
+     display: flex;
+     justify-content: end;
+  }
+}

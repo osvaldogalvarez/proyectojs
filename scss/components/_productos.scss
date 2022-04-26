@@ -1,0 +1,54 @@
+@import '../base/variables';
+@import '../base/mixins';
+
+.flex-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.flex-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.foto-productos:hover {
+    transform: scale(1.1);
+    transition: all 1.2s;
+    animation: foto-productos 1.5s;
+}
+@keyframes foto-productos {
+    100% {
+        box-shadow: inset 5em 1em rgb(212, 212, 208);
+    }
+}
+.circlee {
+    border-radius: $circular;
+}
+.flex-button {
+    padding: 10px;
+    
+}
+.efecto-boton {
+    border-radius: $cicular-boton;
+    background-color: darken($bg-color-general, 5%);
+}
+.parra {
+    @include colores(rgb(14, 53, 14));
+}
+.colorbas {
+    background-color: $bg-color-general;
+}
+p {
+    font-family:"Open+Sans&family=Roboto", sans-serif;
+}
+.desap {
+    display: flex;
+    justify-content: end;
+ }
+ @media screen and (max-width: 1200px) {
+    .desap {
+       display: flex;
+       justify-content: end;
+    }
+ }

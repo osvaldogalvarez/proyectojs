@@ -1,0 +1,32 @@
+@import '../base/variables';
+@import '../base/colores';
+
+  
+  footer {
+    display: inline;
+    text-align: center;
+    width: 100vh;
+    
+}
+.color-gen {
+    background-color: darken($color-general, 3%);
+}
+/* .border-foot {
+    border: $border; 
+}*/
+
+.redes {
+     text-align: center;
+}
+
+
+.grid-footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+
+}    
+
+.grid-item {
+    background-color: rgb(230, 222, 238);
+}
