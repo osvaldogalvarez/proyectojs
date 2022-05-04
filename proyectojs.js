@@ -1,3 +1,4 @@
+/*
 //Función para calcular el índice de masa corporal (IMC)
 function CalcularIMC(sexo, altura, peso) 
 {
@@ -90,3 +91,7 @@ let peso = parseInt(prompt("Indique su peso en kilógramos:", ""));
 let resultado = CalcularIMC(sexo, altura, peso);
 MostrarResultadoIMC(sexo, altura, peso, resultado);  
 console.log(imc.length);
+*/
+let titulo = document.getElementById("shopi");
+titulo.innerText = "GALERIA SHOP";
+
