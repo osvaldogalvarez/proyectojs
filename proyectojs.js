@@ -95,3 +95,13 @@ console.log(imc.length);
 let titulo = document.getElementById("shopi");
 titulo.innerText = "GALERIA SHOP";
 
+$(function() {
+  $('body').vegas({
+      slides: [
+          { src: 'fotos/js1.jpg' },
+          { src: 'fotos/js6.jpg' },
+          { src: 'fotos/js7.jpg' },
+          { src: 'fotos/js4.jpg' }
+      ]
+  });
+});
