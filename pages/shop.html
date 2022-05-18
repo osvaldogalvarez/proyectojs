@@ -50,9 +50,6 @@
           <li class="nav-item">
             <a class="nav-link fs-5" href="#contacto">Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="../pages/carrito.html">Carrito</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -64,189 +61,212 @@
               <div class="intro color-sub mt-5">
                   <h1 id="shopis" class="p-1 text-center">SHOP</h1>
               </div>
-              <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-                <div class="row photos d-flex justify-content-center mb-4">
-                  <div class="card photo-gallery rounded" style="width: 18rem;">
-                    <h5 class="card-title pt-2 text-center text-primary">Delicia 1</h5>
-                    <img src="../fotos/1.jpg" class="circlee card-img-top" alt="Mini rogel">
-                    <div class="card-body">
-                      <p class="card-text text-black-50 description">Mini rogel</p>
-                      <h5 class="text-primary card-title">Precio: <span class="precio">$ 2190</span></h5>
-                      <div class="d-grid gap-2">
-                      <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
+              <header class="container-fluid top-0">
+                <ul
+                  class="nav nav-pills mb-3 py-3 container"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active text-black"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                      >Delicias</a
+                    >
+                  </li>
+                  <li class="nav-item" >
+                    <a
+                      class="nav-link text-black"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                      >Carrito</a
+                    >
+                  </li>
+                </ul>
+              </header>
+          
+              <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+              Producto Añadido al carrito!
+              </div>
+              <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+                Producto removido!
+              </div>
+          
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade "
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  1
+                </div>
+                <div
+                  class="tab-pane fade show active container"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <h2 class="h4 m-4 color-sub">Productos</h2>
+          
+                  <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 1</h5>
+                        <img src="../fotos/1.jpg" class=" mt-3 circlee card-img-top" alt="Mini Rogel">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Mini rogel</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 2190</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 2</h5>
+                        <img src="../fotos/3.jpg" class=" mt-3 circlee card-img-top" alt="Cheesecake">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Cheesecake</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 2800</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicias 3</h5>
+                        <img src="../fotos/5.jpg" class=" mt-3 circlee card-img-top" alt="Mini brownie">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Mini brownie</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 950</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 4</h5>
+                        <img src="../fotos/6.jpg" class=" mt-3 circlee card-img-top" alt="Scons">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Scons</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 150</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 5</h5>
+                        <img src="../fotos/7.jpg" class=" mt-3 circlee card-img-top" alt="cupcakes">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Cupcakes</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$2800</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 6</h5>
+                        <img src="../fotos/10.jpg" class=" mt-3 circlee card-img-top" alt="Mini tartas">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Mini tartas</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 290</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="cardss photo-gallery mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 7</h5>
+                        <img src="../fotos/13.jpg" class=" mt-3 circlee card-img-top" alt="Macarons">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Macarons</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 2500</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mb-4">
+                      <div class="photo-gallery mb-1 cardss rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-dark text-center text-primary">Delicia 8</h5>
+                        <img src="../fotos/17.jpg" class=" mt-3 circlee card-img-top" alt="Tarta de maracuya">
+                        <div class="card-body">
+                          <p class="card-text text-black description">Tarta de Maracuya</p>
+                          <h5 class="text-primary text-black-50">Precio: <span class="precio">$ 1600</span></h5>
+                          <div class="d-grid gap-2">
+                          <button  class="btns efecto-boton btn button text-dark">Añadir a Carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+          
+          
+                  </div>
+          
+                </div>
+                <div
+                  class="tab-pane fade carrito"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                <br>
+                <table class="table table-hover">
+                  <thead>
+                    <tr class="text-primary text-black">
+                      <th scope="col">#</th>
+                      <th scope="col">Productos</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">Cantidad</th>
+                    </tr>
+                  </thead>
+                  <tbody class="tbody">
+                    
+                  
+                    
+                  </tbody>
+                </table>
+                <br><br>
+                <div class="row mx-4">
+                  <div class="col">
+                    <h3 class="itemCartTotal text-dark">Total: 0</h3>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                   <a href=""> <button class="btn btns btn-success efecto-boton text-dark">COMPRAR</button></a>
                   </div>
                 </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 2</h5>
-                  <img src="../fotos/3.jpg" class="circlee card-img-top" alt="Cheesecake">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Cheesecake</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">$ 2800</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
+                
                 </div>
               </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 3</h5>
-                  <img src="../fotos/5.jpg" class="circlee card-img-top" alt="Mini brownie">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Mini brownie</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">$ 950</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 4</h5>
-                  <img src="../fotos/6.jpg" class="circlee card-img-top" alt="Scons">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Scons</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">$ 150</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 5</h5>
-                  <img src="../fotos/7.jpg" class="circlee card-img-top" alt="Cupcakes">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Cupcakes</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">Dopcena $2800</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 6</h5>
-                  <img src="../fotos/10.jpg" class="circlee card-img-top" alt="Mini tartas">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Mini tartas</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">$ 290</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 7</h5>
-                  <img src="../fotos/13.jpg" class="circlee card-img-top" alt="Macarons">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Macarons</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">caja24 $2500</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row photos d-flex justify-content-center mb-4">
-                <div class="card photo-gallery rounded" style="width: 18rem;">
-                  <h5 class="card-title pt-2 text-center text-primary">Delicia 8</h5>
-                  <img src="../fotos/17.jpg" class="circlee card-img-top" alt="Tarta de maracuya">
-                  <div class="card-body">
-                    <p class="card-text text-black-50 description">Tarta de maracuya</p>
-                    <h5 class="text-primary card-title">Precio: <span class="precio">$ 1600</span></h5>
-                    <div class="d-grid gap-2">
-                    <button  class="btns efecto-boton btn btn-primary button">Añadir a Carrito</button>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <!--<div class="row photos d-flex justify-content-center mb-4">
-              <div class="photo-gallery card" style="width: 17rem;">
-                <h5 class="card-title pt-2 text-center text-primary">Delicia 8</h5>
-                <img src="../fotos/1.jpg" class="circlee card-img-top" alt="mini rogel">
-                <div class="card-body">
-                  <h5 class="foti card-title">Mini Rogel</h5>
-                  <p class="card-text">Precio $2190</p>
-                  <a  id="btnPrincipal" href class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-            
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/3.jpg" class="circlee card-img-top" alt="Cheesecake">
-                <div class="card-body">
-                  <h5 class="foti card-title">Cheesecake</h5>
-                  <p class="card-text">Precio $2800</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/5.jpg" class="circlee card-img-top" alt="mini Brownie">
-                <div class="card-body">
-                  <h5 class="foti card-title">Mini Brownie</h5>
-                  <p class="card-text">Precio $950</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/6.jpg" class="circlee card-img-top" alt="Scons">
-                <div class="card-body">
-                  <h5 class="foti card-title">Scons</h5>
-                  <p class="card-text">Precio $150</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/7.jpg" class="circlee card-img-top" alt="Cupcakes">
-                <div class="card-body">
-                  <h5 class="foti card-title">Cupcakes</h5>
-                  <p class="card-text">Precio x docena $2800</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/10.jpg" class="circlee card-img-top" alt="Mini Tartas">
-                <div class="card-body">
-                  <h5 class="foti card-title">Mini Tartas</h5>
-                  <p class="card-text">Precio $290</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/12.jpg" class="circlee card-img-top" alt="Macarons">
-                <div class="card-body">
-                  <h5 class="foti card-title">Macarons</h5>
-                  <p class="card-text">Precio x caja de 24 $2500</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>
-              </div>
-              <div class="photo-gallery" style="width: 17rem;">
-                <img src="../fotos/17.jpg" class="circlee card-img-top" alt="Tarta Maracuya">
-                <div class="card-body">
-                  <h5 class="foti card-title">Tarta Maracuya</h5>
-                  <p class="card-text">Precio $1600</p>
-                  <a href="../fotos/error4042.webp" class="btns btn efecto-boton button">comprar</a>
-                </div>-->
-              
-
-              </div>
-            </div>
-          </div>
-      </div>
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-  </section>
-  <!-- fin shop -->
    
     <!--footer-->
     <footer id="contacto" class="text-black text-center text-lg-start bg-dark">
@@ -328,5 +348,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
   <script src="../shopjs.js"></script>
+
 </body>
 </html>
